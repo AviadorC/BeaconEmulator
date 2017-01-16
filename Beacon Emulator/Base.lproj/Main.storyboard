@@ -85,10 +85,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Le-Wp-QLE" userLabel="BroadcastContainer">
-                                <rect key="frame" x="36" y="232" width="342" height="488"/>
+                                <rect key="frame" x="44" y="240" width="326" height="472"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d1Z-Ya-1pm" customClass="BroadcastIndicator" customModule="Beacon_Emulator" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="342" height="488"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="326" height="472"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <connections>
                                             <action selector="boardcastToggle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nQe-Gm-qAR"/>
@@ -108,12 +108,12 @@
                         <constraints>
                             <constraint firstItem="8Ug-xj-VeL" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="5CB-mW-PCI"/>
                             <constraint firstItem="wfM-bH-aL8" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="5Mg-mm-hYa"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="8Le-Wp-QLE" secondAttribute="trailing" constant="16" id="5P6-bU-xZu"/>
-                            <constraint firstItem="8Le-Wp-QLE" firstAttribute="top" secondItem="6D1-X0-4V0" secondAttribute="bottom" constant="16" id="5Qq-YL-Io8"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="8Le-Wp-QLE" secondAttribute="trailing" constant="24" id="5P6-bU-xZu"/>
+                            <constraint firstItem="8Le-Wp-QLE" firstAttribute="top" secondItem="6D1-X0-4V0" secondAttribute="bottom" constant="24" id="5Qq-YL-Io8"/>
                             <constraint firstItem="dcM-Gd-iYb" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="9Yy-EZ-F4p"/>
                             <constraint firstItem="SIH-Wk-bJZ" firstAttribute="top" secondItem="wfM-bH-aL8" secondAttribute="bottom" constant="5.5" id="Bmc-bL-5Fh"/>
                             <constraint firstItem="JeY-RO-J4N" firstAttribute="top" secondItem="3Gp-VP-qVv" secondAttribute="bottom" constant="8" id="C3g-FB-wcp"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="8Le-Wp-QLE" secondAttribute="bottom" constant="16" id="DSi-lP-mex"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="8Le-Wp-QLE" secondAttribute="bottom" constant="24" id="DSi-lP-mex"/>
                             <constraint firstItem="8Ug-xj-VeL" firstAttribute="top" secondItem="j32-Ns-Yvu" secondAttribute="bottom" constant="8" id="DoD-gx-jh4"/>
                             <constraint firstItem="KVO-dQ-N7m" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="FHs-RD-pDq"/>
                             <constraint firstItem="3Gp-VP-qVv" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="JCv-7G-64g"/>
@@ -129,7 +129,7 @@
                             <constraint firstItem="dcM-Gd-iYb" firstAttribute="top" secondItem="8Ug-xj-VeL" secondAttribute="bottom" constant="8" id="qDg-6f-dd2"/>
                             <constraint firstItem="OFu-0R-Mf4" firstAttribute="top" secondItem="wfM-bH-aL8" secondAttribute="bottom" constant="1.5" id="tC1-ES-gOG"/>
                             <constraint firstItem="3Gp-VP-qVv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="uvf-FX-X5Q"/>
-                            <constraint firstItem="8Le-Wp-QLE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="16" id="wYB-6c-cXk"/>
+                            <constraint firstItem="8Le-Wp-QLE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="24" id="wYB-6c-cXk"/>
                             <constraint firstItem="6D1-X0-4V0" firstAttribute="top" secondItem="KVO-dQ-N7m" secondAttribute="bottom" constant="8" id="y9w-wg-sra"/>
                             <constraint firstItem="OFu-0R-Mf4" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="yWt-O0-K8I"/>
                             <constraint firstItem="wfM-bH-aL8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zOY-jW-cdt"/>
